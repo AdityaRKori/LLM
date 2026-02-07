@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 import os
 
-groq_api_key = "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"
+groq_api_key = "paste own"
 
 llm = ChatGroq(api_key = groq_api_key, model="qwen/qwen3-32b")
 
